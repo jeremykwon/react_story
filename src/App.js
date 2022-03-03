@@ -15,7 +15,7 @@ function App() {
 				<Router />
 
 				<Routes>
-					{/* 버전 6부터 exact를 사용하지 않고 여러라우팅을 매칭하고싶은 경우에는 *을 사용  */}
+					{/* 버전 6부터 exact를  사용하지 않고 여러라우팅을 매칭하고싶은 경우에는 *을 사용  */}
 					<Route path="/" element={<Home />} />
 					<Route path="/callback" element={<UseCallback />} />
 					<Route path="/memo" element={<LazyMemo />} />
