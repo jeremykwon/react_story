@@ -1,5 +1,7 @@
-import NotFound from './NotFound';
+import NotFound from './NotFound/NotFound';
+import Router from './Router/Router';
 
 export {
-    NotFound
+    NotFound,
+    Router
 };

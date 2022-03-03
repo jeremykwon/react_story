@@ -3,10 +3,9 @@ import React from 'react';
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
-      <p>Take me home~ Country road~</p>
+      <h1>메인페이지</h1>
     </div>
   );
 };
 
-export { Home };
+export default Home;
