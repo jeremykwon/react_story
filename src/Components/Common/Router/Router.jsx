@@ -7,6 +7,7 @@ const Router = () => {
             <Link to='/'>Home</Link>
             <Link to='callback'>useCallback</Link>
             <Link to='memo'>useMemo</Link>
+            <Link to='redux'>redux</Link>
         </div>
     );
 };
